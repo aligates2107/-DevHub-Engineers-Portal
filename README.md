@@ -42,7 +42,11 @@ The DevHub Engineers' Portal is a comprehensive platform designed to empower dev
 ## 📦 Installation
 1. Clone the repository:
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/AliGates915/DevHub-Engineer-s
+=======
+git clone https://github.com/aligates2107/-DevHub-Engineers-Portal
+>>>>>>> 5643e77 (working)
 ```
 2. Navigate to the project directory:
 ```bash
