@@ -2,8 +2,6 @@
 ## Project Description
 The DevHub Engineers' Portal is a comprehensive platform designed to empower developers across various fields, including Web Development, AI/ML, and Android. It offers direct access to top resources like documentation, roadmaps, interview guidelines, and blog posts. The platform is built with a modern tech stack, ensuring a smooth and interactive user experience.
 
-![4](https://github.com/user-attachments/assets/4f4aab92-f56a-4cda-b54c-99e6a8ff4b23)
-
 ## Tech Stack: 
 ### Frontend:
   * React.js ⚛️
