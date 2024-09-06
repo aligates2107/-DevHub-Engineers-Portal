@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export const content = [
-  "./src/**/*.{js,jsx,ts,tsx}", // Adjust this to match your file structure
-  "./public/index.html", // If you have HTML files in public
-];
-export const theme = {
-  extend: {},
+module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', // Include React component files
+    './pages/**/*.{js,jsx,ts,tsx}', // Include Next.js pages
+    './components/**/*.{js,jsx,ts,tsx}', // Include components directory if any
+    './app/**/*.{js,jsx,ts,tsx}', // If you're using the `app` directory in Next.js
+    './public/**/*.html', // Include any HTML files
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
-export const plugins = [];
