@@ -23,14 +23,13 @@ function Home() {
       
             <p className="text-base sm:text-lg md:text-xl xl:text-3xl 2xl:text-5xl">
              <span className='xl:leading-[50px] 2xl:leading-[70px]'>
-              <b className=''>Documentation, Roadmap Guidelines,</b> and <b className=''> Interview Guidelines.</b>
+             Documentation, Roadmap Guidelines, and Interview Guidelines.
             </span> <br /> 
             <span className='xl:leading-[50px] 2xl:leading-[70px]'>
-             <b className=''>Blog Posting, </b> and <b className=''>Solving LeetCode Problems. </b>
-            </span><br />
+             Blog Posting,  and Solving LeetCode Problems.             </span><br />
             <span className='xl:leading-[50px] 2xl:leading-[70px]'>
-              <b className=''> Active Members </b> and 
-              <b className=''> Popular discussion topics.</b>
+              Active Members and 
+               Popular discussion topics.
             </span>
              
           </p>
