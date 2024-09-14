@@ -5,10 +5,10 @@ function Home() {
 // #232730
   return (
     <>
-      <main className="max-h-screen flex text-white flex-col md:flex-row items-center justify-between py-10 bg-[#0d1117] px-14">
+      <main className="max-h-screen flex text-white flex-col md:flex-row items-center justify-between py-10 bg-[#0a192f] border-b px-14">
         <motion.div
           className="content md:w-1/2 text-center md:text-left mb-4"
-          initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 2, x: 10 }}
           transition={{ duration: 1 }}
         >

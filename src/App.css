@@ -58,3 +58,53 @@ nav a {
 .image img {
   max-width: 100%;
 }
+  
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0px;
+  text-align:center;
+  cursor:pointer;
+  
+  margin: 0 20px; /* Add some horizontal margin to space out the links */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px; /* Adjust as needed to position the underline */
+  left: 0;
+   /* Adjust color as needed */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link.hovered::after {
+  width:100%;
+}
+
+/* Default: hide the element */
+.custom-hidden {
+  display: none;
+}
+
+.cust-hidden {
+    display: none;
+    
+  }
+/* Show the element for screens larger than 600px */
+@media (min-width: 600px) {
+  .custom-hidden {
+        display: block;
+  }
+}
+
+@media (min-width: 830px) {
+    .cust-hidden {
+        display: block;
+        display: flex;
+        flex: row;
+    }
+}
+
