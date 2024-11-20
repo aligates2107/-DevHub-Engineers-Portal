@@ -82,3 +82,4 @@ We welcome contributions from the community! Here's how you can contribute:
  * If you have any questions or need further assistance, feel free to reach out to us through the issue tracker or contact us directly via email at hacktech877@gmail.com.
  * Over the Discord: https://discord.com/channels/aligates_38558
  * WhatsApp: +92 3246987780# 📚 DevHub Engineers' Portal
+  * Any update readme.md
